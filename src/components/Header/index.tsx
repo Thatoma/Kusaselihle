@@ -6,6 +6,9 @@ import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
+import logob from "../../../public/images/services/lb.png";
+import logow from "../../../public/images/services/lw.png";
+
 const Header = () => {
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -55,14 +58,14 @@ const Header = () => {
                   } `}
               >
                 <Image
-                  src="/images/services/lb.png"
+                  src={logob}
                   alt="logo"
                   width={200}
                   height={100}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/services/lw.png"
+                  src={logow}
                   alt="logo"
                   width={200}
                   height={100}
