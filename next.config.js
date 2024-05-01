@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "kusaselihle.vercel.app",
+        hostname: "cdn.sanity.io",
         port: "",
       },
     ],
