@@ -58,14 +58,14 @@ const Header = () => {
                   } `}
               >
                 <Image
-                  src={logob}
+                  src="/images/services/lb.png"
                   alt="logo"
                   width={200}
                   height={100}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src={logow}
+                  src="/images/services/lw.png"
                   alt="logo"
                   width={200}
                   height={100}
