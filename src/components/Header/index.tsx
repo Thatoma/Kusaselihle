@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
+import lb from "../../../public/images/logo/lb.svg"
+import lw from "../../../public/images/logo/lw.svg"
 const Header = () => {
   // Navbar toggle
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -55,7 +57,7 @@ const Header = () => {
                   } `}
               >
                 <Image
-                  src="/images/logo/lb.png"
+                  src={lb}
                   alt="logo"
                   width={200}
                   height={100}
@@ -63,7 +65,7 @@ const Header = () => {
                   priority={true}
                 />
                 <Image
-                  src="/images/logo/lw.png"
+                  src={lw}
                   alt="logo"
                   width={200}
                   height={100}
