@@ -23,12 +23,12 @@ const Video = () => {
                   Iron Ore and Manganese
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  The "Griqualand West Super Group" is developed in the recently delineated Northern Cape and Northwest Provinces in South Africa to the south and west,
+                  The {"Griqualand West Super Group"} is developed in the recently delineated Northern Cape and Northwest Provinces in South Africa to the south and west,
                   it extends into the southernmost parts of Botswana to the north {`(Beukes, 1986).`}
                   The western limits of the Transvaal Super group in the above area coincide
-                  with the western margin of the Kaapvaal craton, which is defined by a sharp tectonic contact with the Kheis Province (Thomas
-                  et ai. 1994a, b). <br /> <br />
-                  The Kheis Province represents the easternmost tectonic "block of the wider
+                  with the western margin of the Kaapvaal craton, which is defined by a sharp tectonic contact with the Kheis Province {`(Thomas
+                  et ai. 1994a, b)`}. <br /> <br />
+                  The Kheis Province represents the easternmost tectonic block of the wider
                   Namaqualand Metamorphic Province and has undergone a complex tectonometamorphic history involving
                   an early orogenic event as well as subsequent structural rejuvenation related to the Kibaran tectono-magmatic
                   event {`(Thomas ET ai. 1994b).`}

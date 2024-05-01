@@ -12,10 +12,10 @@ const Contact = () => {
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-              Contact Us: Support & Inquiries
+              Contact Us: Support and Inquiries
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                Our support team will get back to you ASAP via email. Let's make something great togethe
+                Our support team will get back to you ASAP via email. Let us make something great together
               </p>
               <form>
                 <div className="-mx-4 flex flex-wrap">
