@@ -6,8 +6,8 @@ import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 
-import logob from "../../../public/images/services/lb.png";
-import logow from "../../../public/images/services/lw.png";
+import logob from "/images/services/lb.png";
+import logow from "/images/services/lw.png";
 
 const Header = () => {
   // Navbar toggle
