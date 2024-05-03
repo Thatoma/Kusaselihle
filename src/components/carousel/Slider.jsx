@@ -1,6 +1,7 @@
 import { Box, Button, Grid, styled, useTheme, Typography } from '@mui/material';
 import Carousel from './Carousel';
 import { H1, H6, Paragraph } from '@/components/Typography';
+import Image from 'next/image';
 // styled components
 const StyledBox = styled(Box)({
 	marginBottom: 0,
@@ -13,11 +14,11 @@ const StyledBox = styled(Box)({
 		position: 'absolute',
 	},
 });
-const Container = styled(Box)(({ theme,backgroundimageurl  }) => ({
+const Container = styled(Box)(({ theme  }) => ({
 	minHeight: 450,
 	display: 'flex',
 	alignItems: 'center',
-	backgroundImage: `url(${backgroundimageurl })`,
+	// backgroundImage: `url(${backgroundimageurl })`,
 	backgroundSize: 'cover',
 	backgroundRepeat: 'no-repeat',
 	backgroundPosition: 'center',
@@ -29,6 +30,14 @@ const Container = styled(Box)(({ theme,backgroundimageurl  }) => ({
 		height: '50vh',
 	},
 }));
+const BackgroundImage = styled(Image)`
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+`;
 const StyledGrid = styled(Grid)({
 	maxWidth: 1280,
 	margin: 'auto',
@@ -88,7 +97,8 @@ const Section1 = ({ mainCarouselData }) => {
 				totalSlides={2}
 			>
 				{mainCarouselData.map((item) => (
-					<Container key={item.id} backgroundimageurl={item.imgUrl}>
+					<Container key={item.id}>
+							<BackgroundImage priority={true} alt="image" src={item.imgUrl} layout="fill" />
 						<StyledGrid container>
 							<GridItemOne item lg={6} md={8} xs={12}>
 								<Typography style={{ fontSize: 35, fontWeight: 40 }} sx={{ color: 'white' }}>
