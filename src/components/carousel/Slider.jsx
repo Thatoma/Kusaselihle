@@ -14,7 +14,7 @@ const StyledBox = styled(Box)({
 		position: 'absolute',
 	},
 });
-const Container = styled(Box)(({ theme  }) => ({
+const Container = styled(Box)(({ theme,backgroundimageurl  }) => ({
 	minHeight: 450,
 	display: 'flex',
 	alignItems: 'center',
@@ -98,7 +98,7 @@ const Section1 = ({ mainCarouselData }) => {
 			>
 				{mainCarouselData.map((item) => (
 					<Container key={item.id}>
-							<BackgroundImage priority={true} alt="image" src={item.imgUrl} layout="fill" />
+							<BackgroundImage priority={true} src={item.imgUrl} layout="fill" />
 						<StyledGrid container>
 							<GridItemOne item lg={6} md={8} xs={12}>
 								<Typography style={{ fontSize: 35, fontWeight: 40 }} sx={{ color: 'white' }}>
