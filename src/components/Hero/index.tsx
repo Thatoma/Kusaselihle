@@ -30,7 +30,7 @@ const Hero = () => {
     
     <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white pb-0 pt-[90px] dark:bg-gray-dark md:pb-[0px] md:pt-[100px] xl:pb-[100px] xl:pt-[180px] 2xl:pb-[0px] 2xl:pt-[110px]"
+        className="relative z-10 overflow-hidden bg-white pb-0 pt-[90px] dark:bg-gray-dark md:pb-[0px] md:pt-[100px] xl:pb-[0px] xl:pt-[110px] 2xl:pb-[0px] 2xl:pt-[110px]"
       >
           <PayConSlider mainCarouselData={mainCarouselData}/>
            
