@@ -35,7 +35,7 @@ const Carousel = ({
   arrowButtonClass,
   rightButtonClass,
   rightButtonStyle,
-  hasMasterSpinner=true,
+  hasMasterSpinner=false,
   isIntrinsicHeight=true,
   naturalSlideWidth=100,
   dotGroupMarginTop="2rem",
@@ -144,22 +144,5 @@ const renderDots = ({
   return dots;
 };
 
-// Carousel.defaultProps = {
-//   sx: {},
-//   step: 1,
-//   interval: 4000,
-//   showDots: true,
-//   showArrow: true,
-//   autoPlay: false,
-//   infinite: false,
-//   totalSlides: 1,
-//   visibleSlides: 1,
-//   spacing: "1.5rem",
-//   naturalSlideWidth: 100,
-//   naturalSlideHeight: 125,
-//   hasMasterSpinner: true,
-//   isIntrinsicHeight: true,
-//   dotGroupMarginTop: "2rem",
-//   arrowButtonColor: "secondary",
-// };
+
 export default Carousel;
