@@ -101,7 +101,7 @@ const Section1 = ({ mainCarouselData }) => {
 				{mainCarouselData.map((item) => (
 					<Container key={item.id}>
 				
-            <Image src={item.imgUrl} alt={`image`} width={1200} height={600} style={imageStyle} priority={true} />
+            <Image src={item.imgUrl} alt={`Kusaselihle`} width={1200} height={700} style={imageStyle} priority={true} />
        
 						<StyledGrid container>
 							<GridItemOne item lg={6} md={8} xs={12}>
